@@ -509,7 +509,7 @@ body {
   padding-bottom: 60px;
 }
 
-.footer-address {
+.footer__adress {
   font-size: 14px;
   line-height: 1, 714;
   letter-spacing: 0.03em;
@@ -518,7 +518,7 @@ body {
   font-style: normal;
 }
 
-.footer-contact {
+.footer__contact {
   display: block;
   font-size: 14px;
   line-height: 1, 714;
@@ -527,16 +527,16 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-menu li {
+.footer__menu li {
   margin-top: 9px;
 }
 
-.footer-contact:hover,
-.footer-contact:focus {
+.footer__contact:hover,
+.footer__contact:focus {
   color: var(--blue-text-color);
 }
 
-.footer-menu {
+.footer__menu {
   display: block;
   list-style: none;
   padding: 0;
@@ -547,7 +547,7 @@ body {
   gap: 70px;
 }
 
-.footer-block-title {
+.footer__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -557,14 +557,14 @@ body {
   margin-top: 12px;
 }
 
-.footer-social-links {
+.footer-socials {
   list-style: none;
   padding: 0;
   display: flex;
   gap: 10px;
 }
 
-.footer-social-links a {
+.footer-socials__link {
   display: flex;
   border: none;
   border-radius: 50%;
@@ -573,17 +573,12 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-links a:hover,
-.footer-social-links a:focus {
+.footer-socials__link:hover,
+.footer-socials__link:focus {
   background-color: var(--blue-text-color);
 }
 
-/* .footer-block-2,
-.footer-block-3 {
-  border: 1px solid red;
-} */
-
-.newsletter-input {
+.newsletter__input {
   width: 342px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -595,10 +590,10 @@ body {
   outline: none;
 }
 
-.footer-block-3 form {
+.newsletter {
   display: flex;
 }
-.newsletter-button {
+.newsletter__button {
   display: flex;
   align-items: center;
   margin-left: 12px;
@@ -610,7 +605,7 @@ body {
   border: none;
 }
 
-.newsletter-button span {
+.newsletter__button--name {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
@@ -621,7 +616,7 @@ body {
   color: #ffffff;
 }
 
-.newsletter-icon {
+.newsletter__icon {
   margin-right: 28px;
 }
 /* ===== END FOOTER ===== */
