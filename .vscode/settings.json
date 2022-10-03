@@ -4,12 +4,12 @@
         {
           "format": "expanded",
           "extensionName": ".css",
-          "savePath": "./..public/css"
+          "savePath": "./css"
         },
         {
             "format": "compressed",
             "extensionName": ".min.css",
-            "savePath": "./..public/css"
+            "savePath": "./css"
           }
       ],
       "liveSassCompile.settings.generateMap": ["**/node_modules/**"],

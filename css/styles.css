@@ -34,7 +34,7 @@ body {
   text-decoration: none;
 }
 
-.blue-text {
+.logo__name {
   color: var(--blue-text-color);
 }
 

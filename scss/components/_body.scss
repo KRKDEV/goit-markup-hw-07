@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+  }
+
+body {
+    color: $--dark-text-color;
+    font-family: $--primary-font, $--secondary-font;
+    margin: auto;
+    position: relative;
+  }
