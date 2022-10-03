@@ -7,4 +7,107 @@ body {
   font-family: "Roboto", sans-serif;
   margin: auto;
   position: relative;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 192;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo__name {
+  color: #2196f3;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header__logo {
+  color: black;
+}
+
+.navigation {
+  width: 254px;
+  margin-left: 93px;
+  margin-right: 371px;
+}
+
+.navigation__menu {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.active {
+  color: var(--blue-text-color);
+}
+.active::after {
+  display: block;
+  position: absolute;
+  content: "";
+  background-color: var(--blue-text-color);
+  height: 4px;
+  border-radius: 2px;
+  width: 100%;
+  top: 44px;
+}
+
+.contact__item {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--bright-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 142;
+  text-decoration: none;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact__item .contact__item:not(:last-child) {
+  margin-right: 50px;
+}
+.contact__item .contact__item--icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.navigation__link:hover, .navigation__link:focus,
+.contact__item:hover,
+.contact__item:focus {
+  color: var(--blue-text-color);
+  fill: var(--blue-text-color);
 }/*# sourceMappingURL=main.css.map */

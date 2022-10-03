@@ -18,7 +18,10 @@
   $--icons-secondary-color: #ffffff;
   $--icons-active-color: #2196f3;
 
-
-  $--transition-fn: cubic-bezier(0.4, 0, 0.2, 1);
+// FONTS STYLES
   $--primary-font: "Roboto";
   $--secondary-font: sans-serif;
+  $--logo-font: "Raleway";
+
+// OTHER
+  $--transition-fn: cubic-bezier(0.4, 0, 0.2, 1);
