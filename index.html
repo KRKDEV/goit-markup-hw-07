@@ -2,7 +2,7 @@
 <html lang="pl">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/main.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
@@ -336,8 +336,8 @@
         </footer>
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-                <button type="button" class="close-button" data-modal-close>X</button>
-                <p>Zostaw swoje dane w formularzu poniżej</p>
+                <button type="button" class="modal__close-button" data-modal-close>X</button>
+                <p class="modal__title">Zostaw swoje dane w formularzu poniżej</p>
                 <form class="form">
                     <ul class="form__menu">
                         <li class="form__item">
@@ -372,8 +372,8 @@
                         </li>
                         <li class="form__item">
                             <label class="form__checkbox"
-                                ><input class="form__input-check" type="checkbox" name="checkbox" />
-                                <svg class="form__icon-check" width="16" height="15">
+                                ><input class="form__checkbox--input" type="checkbox" name="checkbox" />
+                                <svg class="form__checkbox--icon" width="16" height="15">
                                     <use href="./images/icons.svg#icon-icon-check" width="16" height="15"></use>
                                 </svg>
                                 <span class="form__privacy">Oświadczam iż akceptuję <a class="form__link" href="#" rel="noreferrer noopener">Regulamin</a> i <a class="form__link" href="#" rel="noreferrer noopener">Politykę Prywatności</a></span></label

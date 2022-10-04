@@ -1,5 +1,5 @@
 .footer {
-    background: var(--footer-background-color);
+    background: $--footer-background-color;
     color: #ffffff;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -36,7 +36,7 @@
 
         &:hover,
         &:focus {
-           color: var(--blue-text-color);
+           color: $--blue-text-color;
         }
       }
 
@@ -65,12 +65,12 @@
             border: none;
             border-radius: 50%;
             background-color: rgba(255, 255, 255, 0.1);
-            fill: var(--icons-secondary-color);
+            fill: $--icons-secondary-color;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
             &:hover,
             &:focus {
-              background-color: var(--blue-text-color);
+              background-color: $--blue-text-color;
             }
           }
       }

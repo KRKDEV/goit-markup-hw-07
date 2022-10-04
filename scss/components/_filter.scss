@@ -1,11 +1,11 @@
 .filter {
-    background-color: var(--main-background-color);
+    background-color: $--main-background-color;
     padding-top: 94px;
     padding-bottom: 50px;
 
     &__button {
         cursor: pointer;
-        background-color: var(--button-secondary-color);
+        background-color: $--button-secondary-color;
         border-radius: 4px;
         font-family: "Roboto";
         font-weight: 500;
@@ -20,7 +20,7 @@
         &:hover,
         &:focus {
             color: #ffffff;
-            background-color: var(--button-primary-color);
+            background-color: $--button-primary-color;
           }
       }
       
