@@ -8,3 +8,13 @@ body {
     margin: auto;
     position: relative;
   }
+
+.section-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 166;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--dark-text-color);
+    margin-bottom: 50px;
+  }

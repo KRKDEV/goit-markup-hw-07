@@ -237,7 +237,7 @@ body {
   margin-bottom: 50px;
 }
 
-.about-section {
+.about {
   padding-bottom: 94px;
 }
 
@@ -274,7 +274,7 @@ body {
   padding: 27px;
 }
 
-.team-section {
+.team {
   background: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -341,7 +341,7 @@ body {
   fill: var(--icons-secondary-color);
 }
 
-.clients-section {
+.clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -378,7 +378,7 @@ body {
   fill: var(--blue-text-color);
 }
 
-.clients-section a:focus {
+.clients__menu a:focus {
   border: 1px solid var(--blue-text-color);
   outline: none;
 }
