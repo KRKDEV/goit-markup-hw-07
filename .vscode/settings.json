@@ -14,6 +14,6 @@
       ],
       "liveSassCompile.settings.generateMap": ["**/node_modules/**"],
       "liveSassCompile.settings.generateMap": true,
-      "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions" ]
+      "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"]
 
 }
