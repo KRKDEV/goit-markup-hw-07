@@ -1,14 +1,13 @@
   .header {
     border-bottom: 1px solid #ececec;
-    
+
+    &__logo {
+      color: black;
+    } 
     .container {
         display: flex;
         align-items: center;
         padding-top: 25px;
         padding-bottom: 25px;
       }
-  }
-
-  .header__logo {
-    color: black;
   }
