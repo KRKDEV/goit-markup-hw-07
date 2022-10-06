@@ -4,7 +4,7 @@
 
 body {
   color: #212121;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
   margin: auto;
   position: relative;
 }
@@ -97,6 +97,14 @@ body {
   top: 44px;
 }
 
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .contact__item {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -164,7 +172,7 @@ body {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 875;
@@ -224,6 +232,7 @@ body {
 }
 
 .about {
+  background-color: #ffffff;
   padding-bottom: 94px;
 }
 .about__menu {
@@ -604,7 +613,7 @@ body {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .newsletter__button--name {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
