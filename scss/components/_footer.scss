@@ -4,6 +4,12 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
+    &__container {
+      @extend .container;
+      display: flex;
+      gap: 70px;
+    }
+
     &__logo {
         color: #ffffff;
       }
@@ -40,11 +46,6 @@
         }
       }
 
-    .container {
-        display: flex;
-        gap: 70px;
-      }
-
     &__title {
         font-weight: 700;
         font-size: 14px;
@@ -54,6 +55,7 @@
         margin-bottom: 20px;
         margin-top: 12px;
       }
+      
     &-socials {
         list-style: none;
         padding: 0;
