@@ -427,6 +427,7 @@ body {
 
 .portfolio {
   background-color: #ffffff;
+  margin-bottom: 94px;
 }
 .portfolio__menu {
   display: -webkit-box;
