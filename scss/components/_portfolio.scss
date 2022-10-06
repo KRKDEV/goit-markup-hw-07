@@ -2,6 +2,10 @@
     background-color: $--main-background-color;
     margin-bottom: 94px;
 
+    &__container {
+        @extend .container;
+    }
+
     &__menu {
         display: flex;
         list-style: none;
